@@ -1,0 +1,523 @@
+@import url(https://fonts.googleapis.com/css?family=Mountains+of+Christmas:regular,700);
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mountains of Christmas', sans-serif;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #0e0e0e;
+    overflow: hidden;
+}
+
+.bcg {
+    position: absolute;
+    inset: 0;
+    display: flex;
+}
+.bcg img {
+     width: 60%; 
+    filter: brightness(50%);
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.bcg h1 {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 7rem;
+    color: #FFD729;
+    text-shadow: 0 0 .5rem rgba(0, 0, 0, .6);
+}
+
+
+
+
+/* .side img{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+     margin-left: 90%;  
+    width:10%;
+} */
+.side1 img{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    /* margin-left: 90%;  */
+    width:8%;
+}
+.side2 img{
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    /* margin-left: 90%;  */
+    width:10%;
+}
+
+    .side3 img{
+        position: fixed;
+        bottom: 0px;
+        right: 10px;
+        /* margin-left: 90%;  */
+        width:6%;
+}
+.hang img{
+    position: fixed;
+    top: 0px;
+    right: 440px;
+    /* margin-left: 90%;  */
+    width:12%;
+}
+.hang1 img{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    /* margin-left: 90%;  */
+    width:12%;
+}
+.hang2 img{
+    position: fixed;
+    top: 0px;
+    right: 220px;
+    /* margin-left: 90%;  */
+    width:12%;
+}
+.hang3 img{
+    position: fixed;
+    top: 0px;
+    right: 660px;
+    /* margin-left: 90%;  */
+    width:12%;
+}
+.hang4 img{
+    position: fixed;
+    top: 0px;
+    right: 875px;
+    /* margin-left: 90%;  */
+    width:12%;
+}
+.hang5 img{
+    position: fixed;
+    top: 0px;
+    right: 1110px;
+    /* margin-left: 90%;  */
+    width:12%;
+}
+.hang6 img{
+    position: fixed;
+    top: 0px;
+    left:0px;
+        /* margin-left: 90%;  */
+    width:12%;
+}
+
+.hanger img{
+    position: fixed;
+    top: 0px;
+    left:120px;
+    width:13%;   
+}
+.hanger1 img{
+    position: fixed;
+    top: 0px;
+    left:360px;
+    width:13%;   
+}
+.hanger2 img{
+    position: fixed;
+    top: 0px;
+    left:588px;
+    width:13%;   
+}
+.hanger3 img{
+    position: fixed;
+    top: 0px;
+    left:800px;
+    width:13%;   
+}
+.hanger4 img{
+    position: fixed;
+    top: 0px;
+    left:1020px;
+    width:13%;   
+}
+.hanger5 img{
+    position: fixed;
+    top: 0px;
+    left:1240px;
+    width:13%;   
+}
+
+
+a img{
+    position: fixed;
+    top: 250px;
+    right:5px;
+    width:7%;   
+}
+
+#audio{
+    
+     position: absolute;
+     width: 100px ;
+     height: 20px;
+     bottom: 400px;
+     right:10px;
+}
+
+
+.firework_group {
+    position: absolute;
+}
+.explosion {
+    position: absolute;
+    left: -2px;
+    bottom: 0;
+    width: 4px;
+    height: 80px;
+    transform: var(--transform);
+    transform-origin: 50% 100%;
+    overflow: hidden;
+}
+
+
+
+
+    .explosion1 {
+        position: absolute;
+        left: -2px;
+        bottom: 0;
+        width: 4px;
+        height: 80px;
+        transform: var(--transform);
+        transform-origin: 50% 100%;
+        overflow: hidden;
+    }
+
+        .explosion2 {
+            position: absolute;
+            left: -2px;
+            bottom: 0;
+            width: 4px;
+            height: 80px;
+            transform: var(--transform);
+            transform-origin: 50% 100%;
+            overflow: hidden;
+        }
+
+            .explosion3 {
+                position: absolute;
+                left: -2px;
+                bottom: 0;
+                width: 4px;
+                height: 80px;
+                transform: var(--transform);
+                transform-origin: 50% 100%;
+                overflow: hidden;
+            }
+
+                .explosion4 {
+                    position: absolute;
+                    left: -2px;
+                    bottom: 0;
+                    width: 4px;
+                    height: 80px;
+                    transform: var(--transform);
+                    transform-origin: 50% 100%;
+                    overflow: hidden;
+                }
+
+                        .explosion5 {
+                            position: absolute;
+                            left: -2px;
+                            bottom: 0;
+                            width: 4px;
+                            height: 80px;
+                            transform: var(--transform);
+                            transform-origin: 50% 100%;
+                            overflow: hidden;
+                        }
+
+                        .explosion6 {
+                            position: absolute;
+                            left: -2px;
+                            bottom: 0;
+                            width: 4px;
+                            height: 80px;
+                            transform: var(--transform);
+                            transform-origin: 50% 100%;
+                            overflow: hidden;
+                        }
+
+                        .explosion7 {
+                            position: absolute;
+                            left: -2px;
+                            bottom: 0;
+                            width: 4px;
+                            height: 80px;
+                            transform: var(--transform);
+                            transform-origin: 50% 100%;
+                            overflow: hidden;
+                        }
+
+                        .explosion8 {
+                            position: absolute;
+                            left: -2px;
+                            bottom: 0;
+                            width: 4px;
+                            height: 80px;
+                            transform: var(--transform);
+                            transform-origin: 50% 100%;
+                            overflow: hidden;
+                        }
+
+                        .explosion9 {
+                            position: absolute;
+                            left: -2px;
+                            bottom: 0;
+                            width: 4px;
+                            height: 80px;
+                            transform: var(--transform);
+                            transform-origin: 50% 100%;
+                            overflow: hidden;
+                        }
+                        .explosion10 {
+                            position: absolute;
+                            left: -2px;
+                            bottom: 0;
+                            width: 4px;
+                            height: 80px;
+                            transform: var(--transform);
+                            transform-origin: 50% 100%;
+                            overflow: hidden;
+                        }
+
+
+    /* just like this */
+    /* now just paste the CSS variable to the transform property */
+    /* now for each line we'll add a transform rotate to make it like circular */
+    /* but instead of selecing each .explosion individually I'll show you a trick you can do with CSS variables. You can specify the property you want in HTML. */
+
+.explosion::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    height: 40px;
+    background-color: #FFD729;
+}
+
+
+
+.explosion1::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    height: 40px;
+    background-color: #650df3;
+}
+
+.explosion2::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    height: 40px;
+    background-color: #f108b7;
+}
+
+.explosion3::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    height: 40px;
+    background-color: #db0087;
+}
+
+.explosion4::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    height: 40px;
+    background-color: #24f7ec;
+}
+
+.explosion5::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    height: 40px;
+    background-color: #b202b8;
+}
+
+.explosion6::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    height: 40px;
+    background-color: #850164;
+}
+
+.explosion7::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    height: 40px;
+    background-color: #e91313;
+}
+
+.explosion8::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    height: 40px;
+    background-color: #19ec3c;
+}
+
+.explosion9::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    height: 40px;
+    background-color: #fca80b;
+}
+.explosion10::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 100%;
+    height: 40px;
+    background-color: #00ffb3;
+}
+
+
+
+@keyframes explode {
+    0% { top: 105%; }
+    33%, 100% { top: -55%; }
+}
+
+/* now we'll add some stylings to each firework */
+.firework1 {
+    left: 50%;
+    top: 50%;
+    transform: scale(1);
+}
+.firework1 .explosion::before {
+    animation: explode 3000ms ease-in-out infinite;
+}
+
+.firework2 {
+    left: 40%;
+    top: 45%;
+    transform: scale(.7);
+}
+.firework2 .explosion1::before {
+    animation: explode 2000ms .6s ease-in-out infinite;
+}
+
+.firework3 {
+    left: 10%;
+    top: 55%;
+    transform: scale(.5);
+}
+.firework3 .explosion2::before {
+    animation: explode 3000ms .4s ease-in-out infinite;
+}
+
+.firework4 {
+    left: 40%;
+    top: 65%;
+    transform: scale(.8);
+}
+.firework4 .explosion3::before {
+    animation: explode 1000ms .4s ease-in-out infinite;
+}
+
+.firework5 {
+    left: 20%;
+    top: 40%;
+    transform: scale(1);
+}
+.firework5 .explosion4::before {
+    animation: explode 4000ms .8s ease-in-out infinite;
+}
+
+.firework6 {
+    left: 20%;
+    top: 80%;
+    transform: scale(.7);
+}
+.firework6 .explosion5::before {
+    animation: explode 3000ms .6s ease-in-out infinite;
+}
+
+.firework7 {
+    left: 80%;
+    top: 20%;
+    transform: scale(1);
+}
+.firework7 .explosion6::before {
+    animation: explode 2000ms 1s ease-in-out infinite;
+}
+
+.firework8 {
+    left: 80%;
+    top: 80%;
+    transform: scale(1.1);
+}
+.firework8 .explosion7::before {
+    animation: explode 1500ms .5s ease-in-out infinite;
+}
+
+.firework9 {
+    left: 60%;
+    top: 30%;
+    transform: scale(.8);
+}
+.firework9 .explosion8::before {
+    animation: explode 2500ms .7s ease-in-out infinite;
+}
+
+.firework10 {
+    left: 60%;
+    top: 70%;
+    transform: scale(.8);
+}
+.firework10 .explosion9::before {
+    animation: explode 2000ms .5s ease-in-out infinite;
+}
+.firework11 {
+    left: 90%;
+    top: 55%;
+    transform: scale(.7);
+}
+.firework11 .explosion10::before {
+    animation: explode 1300ms .5s ease-in-out infinite;
+}
